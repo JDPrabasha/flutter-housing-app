@@ -2,6 +2,7 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter/material.dart';
 import 'package:housing_app/screens/LandingScreen.dart';
+import 'package:housing_app/screens/HouseScreen.dart';
 import 'package:housing_app/utils/constants.dart';
 
 void main() {
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
           fontFamily: 'Montserrat',
           colorScheme:
               ColorScheme.fromSwatch().copyWith(secondary: COLOR_DARK_BLUE)),
-      home: LandingScreen(),
+      home: HouseScreen(),
     );
   }
 }
